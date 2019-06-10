@@ -33,7 +33,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: bzon/podinfo:latest
+        image: docker.io/bzon/podinfo:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9898
